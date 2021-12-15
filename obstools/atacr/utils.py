@@ -26,13 +26,13 @@ class methods of `~obstools.atacr.classes`.
 """
 
 
-import os
+# import os
 import math
 import numpy as np
 import fnmatch
-from matplotlib import pyplot as plt
+# from matplotlib import pyplot as plt
 from obspy.core import read, Stream, Trace, AttribDict
-from scipy.signal import savgol_filter
+# from scipy.signal import savgol_filter
 
 
 def floor_decimal(n, decimals=0):
@@ -568,7 +568,7 @@ def coherence(Gxy, Gxx, Gyy):
 
     """
 
-    if np.any(Gxy) and np.any(Gxx) and np.any(Gxx):
+    if np.any(Gxy) and np.any(Gxx) and np.any(Gyy):
         return np.abs(Gxy)**2/(Gxx*Gyy)
     else:
         return None
