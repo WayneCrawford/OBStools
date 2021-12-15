@@ -1,3 +1,5 @@
+**I HAVE DECIDED TO PUT THE CODES  DESCRIBED BELOW IN CRAWTOOLS/SPECTRAL SpectralDensity and TransferFunction classes**
+
 I will be writing alternative TfNoise and EventStream scripts to overcome some
 problems I have with adding transfer functions and calculating time series:
 
